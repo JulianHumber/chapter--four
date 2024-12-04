@@ -1,0 +1,114 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e6e6fa;
+    line-height: 1.6;
+}
+
+header, footer {
+    background-color: #383896;
+    color: #f5f5fc;
+    text-align: center;
+    padding: 3px;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+section {
+    padding: 20px;
+    margin: 90px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #2e2d2d;
+}
+
+form input, form textarea, form button {
+    width: 100%;
+    padding: 0.2rem;
+    border: 1px solid #8f8c8c;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+}
+
+form button {
+    background: #1468d6;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+footer {
+    text-align: center;
+    background: #383896;
+    color: white;
+   
+}
+
+
+/* Media Queries for Mobile Devices */
+@media only screen and (max-width: 600px) {
+    header, footer {
+        padding: 10px;
+    }
+
+    nav ul li {
+        display: block;
+        text-align: center;
+        margin: 5px 0;
+    }
+
+    section {
+        padding: 10px;
+        margin: 10px;
+    }
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.dark-mode {
+    background-color: #333;
+    color: #fff;
+}
+
+body.dark-mode {
+    background-color: #121212;
+    color: #2e2d2d;
+}
+
+body {
+    background-color: #e6e6fa;
+    color: #000000;
+}
+
+
+img {
+   width: 50px;
+}

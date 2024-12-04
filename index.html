@@ -1,0 +1,122 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="css/stylesmain.css">
+    <script src="script.js" defer></script>
+    <button id="toggleTheme">Activate Dark Mode</button>
+
+    <img src="Program img c4.jpg" alt="Project" loading="lazy">
+
+
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <h1>Julian De Pasqua</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>About Me</h2>
+        <p>I am a 21-year-old aspiring programmer who attends Humber College. My favourite interests are programming, wrestling, video games and anime. So far, I am a college student studying everything about computer programming. I have almost finished my fall semester of the 2024 school year and am achieving passing computer programming with high marks. The goals that I want to accomplish are to travel as much as I can every year and to master as much code as I can.</p>
+    </section>
+
+   
+      <!-- Skills Section -->
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>Software Development Languages: Python, JavaScript, HTML and CSS</li>
+            <li>Computing Systems: Windows, Linux</li>
+            <li>Application Programming: Debugging, Testing</li>
+            <li>Version Control: Github, Gitbash</li>
+            <li>Information Technology: Cyber Protection</li>
+        </ul>
+    </section>
+
+   
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2>My Projects</h2>
+        <div class="project-gallery">
+            <div class="project">
+                <h3>Software Development Projects</h3>
+                <button class="project-toggle">Show Details</button>
+                <div class="project-details" style="display: none;">
+                    <p>Developed accessible software for various devices and platforms.</p>
+                </div>
+            </div>
+            <div class="project">
+                <h3>Assignments</h3>
+                <button class="project-toggle">Show Details</button>
+                <div class="project-details" style="display: none;">
+                    <p>Contributed to assignments involving web programming, algorithm development, and database systems.</p>
+                </div>
+            </div>
+            <div class="project">
+                <h3>IT Projects</h3>
+                <button class="project-toggle">Show Details</button>
+                <div class="project-details" style="display: none;">
+                    <p>Gained hands-on experience with IT systems at Humber College.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+   <!-- Contact Section -->
+   <section id="contact">
+    <h2>Contact Me</h2>
+    <p>I appreciate you taking the time to check out my portfolio! Feel free to contact me via my Humber email at:</p>
+    <p><strong>N01474989@humber.ca</strong></p>
+   </section>
+
+    <section id="contact">
+    <div class="project-gallery">
+        <div class="project">
+            <h3>Project - Main</h3>
+            <button class="project-toggle">Show Details</button>
+            <div class="project-details" style="display: none;">
+                <p>Project infotmation will go here.</p>
+            </div>
+        </div>
+
+        <form id="contactForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name">
+            <span class="error" id="nameError"></span>
+          
+            <label for="email">Email:</label>
+            <input type="text" id="email" name="email">
+            <span class="error" id="emailError"></span>
+          
+            <label for="message">Message:</label>
+            <textarea id="message" name="message"></textarea>
+            <span class="error" id="messageError"></span>
+          
+            <button type="submit">Submit</button>
+          </form>
+          
+          
+
+        <!-- Repeat the above block for each project -->
+    </div>
+    </section>
+    <section id = "catFact"> </section>
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 Julian De Pasqua</p>
+    </footer>
+</body>
+</html>
